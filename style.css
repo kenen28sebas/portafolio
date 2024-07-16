@@ -1,0 +1,229 @@
+*,
+*::before,
+*::after {
+    --gris: #E2E2E2;
+    --azul-claro: #0A122A;
+    --rojo-pastel: #698F3F;
+    --gris-texto: #444444;
+    --negro-texto: #0A122A;
+    --gris-claro: #ECECEC;
+    --naranja:#ffd8d8;
+    --amarillo:#0A2463;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--gris);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+@font-face {
+    font-family: textos;
+    src: url(/fonts/Ubuntu-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: textos_parrafos;
+    src: url(/fonts/Ubuntu-Bold.ttf);
+  }
+
+.contenedor_indice{
+    background-color: var(--rojo-pastel);
+    margin-bottom: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    height: 20px;
+}
+
+.contenedor_info{
+
+    color: var(--gris);
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 1000px;
+    height: 300px;
+}  
+
+.foto_moneda{
+    background-color: #000000;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+.contenedor_descripcion{
+    background-color: var(--azul-claro);
+    box-sizing: border-box;
+    height: 1100;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 1;
+}
+
+
+
+
+h1{
+    color: var(--negro-texto);
+    font-family: textos;
+    font-size: small;
+    font-size: 38px;
+}
+
+h2{
+    color: var(--negro-texto);
+    font-family: textos;
+
+}
+
+.titulo_nombre{
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration:solid;
+    color: var(--gris);
+}
+
+.desc_info{
+    margin-bottom: 0px;
+}
+
+.links_info{
+    margin-top: 50px;
+    
+}
+
+
+
+p{
+    color: var(--azul-medio);
+    font-family: textos_parrafos;
+}
+
+a{
+    color: var(--azul-medio);
+    font-family: textos_parrafos;
+}
+
+.texto_info_sobre{
+   width: 800px; 
+}
+
+
+.contenedor_skill{
+    color: var(--gris);
+    background-color: var(--rojo-pastel);
+    width: 150px;
+    height: 150px;
+    box-shadow: 15px 10px 10px var(--azul-claro);
+    border-radius: 20px;
+}
+
+.contenedor_hobby{
+    color: var(--gris);
+    background-color: var(--rojo-pastel);
+    width: 150px;
+    height: 150px;
+    box-shadow: 15px 10px 10px var(--azul-claro);
+    border-radius: 20px;
+}    
+
+.text_skills{
+    text-align: left;
+}
+
+.text_hobby{
+    text-align: right;
+}
+
+.academic__courses__list{
+    font-family: textos;
+    color: var(--gris);
+    background-color: var(--azul-claro);
+    height: 250px;
+    width: 300px;
+    list-style: none;
+    padding: 0;
+}
+
+.academic__courses{
+    width: 1000px;
+
+}
+
+.academic__courses__item__img{
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background-color: #E2E2E2;
+}
+
+.formcontato {
+    background-color: var(--color-bg-secciones);
+    padding: 130px 152px 65px 152px;
+  }
+  
+  .formcontato__contacto {
+    display: flex;
+    width: 100%;
+  }
+  .formcontato__img {
+    width: 431px;
+  }
+  .formcontato__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+  }
+  .formcontato__title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .formcontato__subtext,
+  .formcontato__subtext {
+    font-weight: 500;
+  }
+  .formcontato__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .formcontato__form .formcontato__input {
+    height: 56px;
+    border-radius: 4px;
+  }
+  .formcontato__botao {
+    width: 144px;
+    height: 51px;
+    padding: 16px;
+    color: #fff;
+    background-color: #2a7ae4;
+    border: none;
+  }
+  .error {
+    color: red;
+  }
+  .enviado {
+    display: block;
+    color: green;
+    font-size: 1.5rem;
+    padding-top: 16px;
+  }
+
+  .footer__rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 102px;
+    background-color: #fff;
+    padding: 32px auto;
+    gap: 5px;
+  }
+  .footer__rodape p {
+    margin: 0;
+  }
